@@ -25,14 +25,14 @@
         </div>
 
         <div class="header__img">
-            <img src="assets/img/perfil.jpg" alt="">
+            <img src="assets/img/logo.jpg" alt="">
         </div>
     </header>
 
     <div class="l-navbar" id="nav-bar">
         <nav class="nav">
             <div>
-                <a href="#" class="nav__logo">
+                <a href="konten.html" class="nav__logo">
                     <i class='bx bx-layer nav__logo-icon'></i>
                     <span class="nav__logo-name">NieR Automata</span>
                 </a>
@@ -42,24 +42,17 @@
                         <i class='bx bxs-credit-card-alt'></i>
                         <span class="nav__name">Pembayaran</span>
                     </a>
-
-                    <a href="" class="nav__link">
-                        <i class='bx bxs-credit-card-alt'></i>
-                        <span class="nav__name">Selesai</span>
-                    </a>
                 </div>
             </div>
 
-            <a href="#" class="nav__link">
+            <a href="dashboard.html" class="nav__link">
                 <i class='bx bx-log-out nav__icon'></i>
                 <span class="nav__name">Kembali</span>
             </a>
         </nav>
     </div>
     <br>
-    <h1 ">Pembayaran</h1>
-    <!--===== MAIN JS =====-->
-    <script src="dashboard.js "></script>
+    <h1>Pembayaran</h1>
 
     <div class="booking-form-box ">
         <div class="booking-form ">
@@ -98,23 +91,18 @@
         </div>
     </div>
 
-    <button class="modal-btn ">Bayar</button>
-    <!-- <div class="input-grp ">
-        <button type="button " class="btn btn-danger flight "><b>Bayar</b></button>
-    </div> -->
-    
+    <div class="modal2">
+        <button class="modal-btn" style="background-color: blueviolet; color: white;">Bayar</button>
+    </div>
     <div class="modal-bg ">
-        <div class="modal ">
-            <h2>Terima kasih, transaksi sukses!</h2>
-            <label for="name ">Name: </label>
-            <input type="text " name="name ">
-            <label for="email ">Email: </label>
-            <input type="email " name="email ">
-            <button>Subscribe</button>
+        <div class="modal " style="text-align: center; vertical-align: middle; padding: 5px; color: blueviolet;">
+            <h2><b>Terima kasih, Transaksi Sukses!</b></h2>
             <span class="modal-close ">X</span>
         </div>
     </div>
-    
+
+    <!--===== MAIN JS =====-->
+    <script src="dashboard.js "></script>
 </body>
 
 </html>
