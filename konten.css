@@ -78,7 +78,7 @@ nav ul li a:hover {
 h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: #ffffff;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -86,13 +86,13 @@ h2 {
 h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color: #000000;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
 .jumbotron {
-    background-color: rgb(69, 163, 192);
+    background-color: #4723D9;
     color: rgb(0, 0, 0);
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
@@ -103,16 +103,16 @@ h4 {
 }
 
 .bg-grey {
-    background-color: #f6f6f6;
+    background-color: #ffffff;
 }
 
 .logo-small {
-    color: rgb(69, 163, 192);
+    color: #4723D9;
     font-size: 50px;
 }
 
 .logo {
-    color: rgb(69, 163, 192);
+    color: #4723D9;
     font-size: 200px;
 }
 
@@ -135,11 +135,11 @@ h4 {
 }
 
 .carousel-indicators li {
-    border-color: rgb(69, 163, 192);
+    border-color: #4723D9;
 }
 
 .carousel-indicators li.active {
-    background-color: rgb(69, 163, 192);
+    background-color: #4723D9;
 }
 
 .panel-heading {
@@ -156,7 +156,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: steelblue;
+    color: #4723D9;
 }
 
 @media screen and (max-width: 768px) {
@@ -185,7 +185,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #f6f6f6;
+    background: #ffffff;
 }
 
 section::before {
@@ -214,14 +214,14 @@ section::before {
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background: rgb(69, 163, 192);
+    background: #4723D9;
     z-index: 1;
     padding: 40px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 20px 25px rgb(69, 163, 192);
+    box-shadow: 0 20px 25px #4723D9;
 }
 
 .containerKontak .contactInfo h2 {
@@ -286,11 +286,11 @@ section::before {
     width: calc(100% - 150px);
     height: 100%;
     background: #fff;
-    box-shadow: 0 50px 50px rgb(69, 163, 192);
+    box-shadow: 0 50px 50px #4723D9;
 }
 
 .containerKontak .contactForm h2 {
-    color: #0f3959;
+    color: #463685;
     font-size: 24px;
     font-weight: 500;
 }
@@ -323,7 +323,7 @@ section::before {
     padding: 5px 0;
     font-size: 18px;
     font-weight: 300;
-    color: rgb(69, 163, 192);
+    color: #4723D9;
     border: none;
     outline: none;
     border-bottom: 1px solid #777;
@@ -351,14 +351,14 @@ section::before {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: rgb(69, 163, 192);
+    color: #4723D9;
     font-weight: 500;
 }
 
 .containerKontak .contactForm .formBox .inputBox input[type="submit"] {
     position: relative;
     cursor: pointer;
-    background: rgb(69, 163, 192);
+    background: #4723D9;
     color: #fff;
     border: none;
     max-width: 150px;
@@ -366,7 +366,7 @@ section::before {
 }
 
 .containerKontak .contactForm .formBox .inputBox input[type="submit"]:hover {
-    background: rgb(69, 163, 192);
+    background: #4723D9;
 }
 
 
@@ -377,7 +377,7 @@ section::before {
         width: 90%;
         min-width: auto;
         margin: 20px;
-        box-shadow: 0 20px 50px rgb(69, 163, 192);
+        box-shadow: 0 20px 50px #4723D9;
     }
     .containerKontak .contactInfo {
         top: 0;
@@ -398,7 +398,7 @@ section::before {
 
 @media(max-width: 991px) {
     section {
-        background: #fff38e;
+        background: #ffffff;
     }
     section::before {
         display: none;
@@ -504,7 +504,7 @@ footer {
     content: '';
     height: 2px;
     width: 15%;
-    background: #20b6f1;
+    background: #4723D9;
     top: -10px;
 }
 
